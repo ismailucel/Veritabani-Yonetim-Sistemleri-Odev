@@ -1,0 +1,1 @@
+# Veritabani-Yonetim-Sistemleri-Odev
