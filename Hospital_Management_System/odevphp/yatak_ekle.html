@@ -1,0 +1,109 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#na{font-size:20px;}
+#p{font-size:50px;}
+body{
+	background-image: url("bg1.jpg");
+	background-size: 1400px;
+    background-repeat:repeat;
+	
+	position:relative;
+	}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.9;
+	margin: auto;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+
+  left: 400px;
+  width: 20%;
+}
+
+
+.container {
+    padding: 16px;
+	align:center;
+	margin: auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+	h1{
+	color:#DC143C;
+	font-family: 'Open Sans', sans-serif;
+	
+	
+	}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+<body style="background-color:#d3d3d3;">
+
+	<img id="logo"  >
+<center><img src="https://fontmeme.com/temporary/dbee9ed7f1eb1c8d2a8d9df571b6620f.png" border="0"></div>
+ <center><h1 id="p">YATAK EKLE</h1></center>
+<form action="yatak_ekle.php" style="width:600px;height:60%;" method="post">
+  <div class="container" style="position:absolute;width:800px;height:50%;align:center;>
+   
+  
+	    <label for="toplam_yatak"><b id="na">Toplam Yatak</b> </label>
+    <input type="number" placeholder="Yatak sayisi giriniz" name="toplam_yatak" required><br/><br/><br/>
+
+    <label for="uygun_yatak"><b id="na">Uygun Yatak</b> </label>
+    <input type="number" placeholder="Uygun yatak sayisi giriniz" name="uygun_yatak" required><br/><br/><br/>
+
+	    <label for="y_id"><b id="na">Yatak_ID</b> </label>
+    <input type="text" placeholder="Yatak_ID giriniz" name="y_id" required><br/><br/><br/>
+	
+    <label for="cinsiyet"><b id="na">Cinsiyet:</b></label>
+    Erkek<input type="radio" value="E" name="cinsiyet" required>
+    Kadin<input type="radio" value="K" name="cinsiyet" required>
+    
+	</br>
+	</br>
+	 <label for="y_tip"><b id="na">Yatak Tipi:</b></label>
+    YBU<input type="radio" value="YBU" name="y_tip" required>
+    GENEL<input type="radio" value="GENEL" name="y_tip" required>
+	</br>
+	</br>
+	</br>
+
+      <a href="resep.html"><button type="button" class="cancelbtn">Iptal</button></a>
+      <button type="submit" class="signupbtn">Gonder</button>
+    
+	
+</br>
+</form>
+</body>
+</html>

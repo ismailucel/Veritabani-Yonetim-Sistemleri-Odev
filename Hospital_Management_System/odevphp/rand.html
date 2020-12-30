@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:600px;
+    opacity: 0.9;
+	
+}
+.viewbtn, .makebtn {
+   padding: 30px 20px;
+    background-color: #f44336;
+	position:relative;
+	left:10px;
+	top:100px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+	
+}
+h1{
+color:#DC143C		; font-family: 'Open Sans', sans-serif;
+}
+body{
+	background-image: url("bg1.jpg");
+	background-size: 1400px;
+    background-repeat:repeat;
+	
+	position:relative;
+	}
+</style>
+</head>
+<body style="background-color:#d3d3d3;">
+
+<img id="logo"  >
+<center><img src="https://fontmeme.com/temporary/dbee9ed7f1eb1c8d2a8d9df571b6620f.png" border="0"></div>
+
+<h1><center>Randevu Sayfasi </center></h1>
+
+ <div class="clearfix">
+	
+	<a href="app_gor.php" method="POST"><button type="button" class="viewbtn"> Randevulari Goruntule </button></a>
+	 </br>
+    <a href="app.php" method="POST"><button type="button" class="viewbtn">Randevulari ID Ile Goruntule</button></a>
+	 </br>
+	  <a href="randevu_takvimi.html"><button type="button" class="makebtn" >Randevu Olustur</button></a>
+	  </br>
+	  <a href="gunc_rand.php" method="POST"><button type="button" class="viewbtn">Randevulari Guncelle</button></a>
+	 </br>
+	 <a href="sil_rand.php" method="POST"><button type="button" class="viewbtn">Randevulari Sil</button></a>
+	 
+    </div>
+	
+</body>
+</html>

@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+#na{font-size:20px;}
+#p{font-size:50px;}
+body{
+	font-family: 'Open Sans', sans-serif;
+
+	background-image: url("bg1.jpg");
+	background-size: 1400px;
+    background-repeat:repeat;
+	text-align:center;
+	position:relative;
+		}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.9;
+	align:center;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  
+  width: 20%;
+  float:center;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+	h1{
+	color:#DC143C;
+	font-family: 'Open Sans', sans-serif;
+	
+	
+	}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+
+<img id="logo"  >
+<center><img src="https://fontmeme.com/temporary/dbee9ed7f1eb1c8d2a8d9df571b6620f.png" border="0"></div>
+ <center><h1 id="p">YATAK FORM</h1></center>
+<form action="yatak.php" style="width:600px;height:60%;" method = "POST">
+  <div class="container" style="position:absolute;width:800px;height:50%;float:center;>
+   
+  
+	   <label for="wardid"><b id="na">Yatak_ID</b> </label>
+    <input type="text" placeholder="Ward ID" name="wardid" required><br/><br/><br/>
+	
+	
+    <label for="gender"><b id="na">Yatak Tipi</b></label>
+    General<input type="radio" value="Genel" name="wtype" required>
+    ICU<input type="radio" value="YBU" name="wtype" required>
+    
+	</br>
+	</br><br/>
+<label for="nobeds"><b id="na">Yatak Sayısı</b> </label>
+    <input type="number"  min="1" name="nobeds" required><br/><br/><br/>
+
+<label for="avail"><b id="na">Uygun Yatak Sayısı</b> </label>
+    <input type="number"  min="1" name="avail" required><br/><br/><br/>
+
+
+  
+      <a href="resep.html"><button type="button" class="cancelbtn">Iptal</button></a>
+      <button type="submit" class="signupbtn">Gonder</button>
+    
+	
+</br>
+</form>
+</html>

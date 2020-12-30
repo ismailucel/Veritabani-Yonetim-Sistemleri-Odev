@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+#na{font-size:20px;}
+#p{font-size:50px;}
+body{
+	font-family: 'Open Sans', sans-serif;
+
+	background-image: url("bg1.jpg");
+	background-size: 1400px;
+    background-repeat:repeat;
+	text-align:center;
+	position:relative;
+		}
+
+button {
+   background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.9;
+	align:center;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: center;
+  width: 20%;
+}
+h1{
+	color:#DC143C;
+	font-family: 'Open Sans', sans-serif;
+	
+	
+	}
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+<img id="logo"  >
+<center><img src="https://fontmeme.com/temporary/dbee9ed7f1eb1c8d2a8d9df571b6620f.png" border="0"></div>
+ <center><h1 id="p">Ilac Guncelle</h1></center>
+<form action="/action_page.php" style="width:600px;height:60%;">
+  <div class="container" style="position:absolute;width:800px;height:50%;align:center;>
+   
+  <label for="medname"><b id="na">Ilac Adi</b> </label>
+    <input type="text" size="20" placeholder="Ilac Adi" name="medname" required><br/><br/><br/>
+
+<label for="Quantity"><b id="na">Toplam Miktar</b> </label>
+    <input type="number" min="0" name="Quantity" required><br/><br/><br/>
+
+<label for="consumed"><b id="na">Tüketilen</b> </label>
+    <input type="number" min="0" name="consumed" required><br/><br/><br/>
+
+    <label for="doa"><b id="na">Alinma Tarihi</b> </label>
+    <input type="date" name="doa" required><br/><br/><br/>
+
+
+ <label for="price"><b id="na">Toplam Fiyat</b> </label>
+    <input type="text" placeholder="Toplam fiyati giriniz" name="price" required><br/><br/><br/>
+
+      <a href="eczacilik.html"><button type="button" class="cancelbtn">Iptal</button></a>
+      <button type="submit" class="signupbtn">Gonder</button>
+    
+	
+</br>
+</form>
+</html>

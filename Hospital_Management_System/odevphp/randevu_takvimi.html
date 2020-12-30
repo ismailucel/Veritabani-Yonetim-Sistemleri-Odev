@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.bookbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.container {
+    padding: 16px;
+	position:relative;
+	align: center;
+	  display: block;
+    
+}
+
+h1{
+color:#DC143C		; font-family: 'Open Sans', sans-serif;
+}
+
+body {font-family: 'Open Sans', sans-serif;
+background-image: url("bg1.jpg");
+	background-size: 1400px;
+    background-repeat:repeat;
+	
+	position:relative;
+
+	text-align:center;
+
+
+}
+
+input.radio {
+      float: left;
+      clear: none;
+      margin: 2px 0 0 2px;
+    }
+</style>
+</head>
+<body style="background-color:#d3d3d3;">
+
+<img id="logo"  >
+<center><img src="https://fontmeme.com/temporary/dbee9ed7f1eb1c8d2a8d9df571b6620f.png" border="0"></div>
+
+<h1><center>Randevunuzu Yapin!</center></h1>
+<form action="randevu.php"  method="POST">
+  <div class="container">
+  
+  	    <label for="hid"><b>Hasta ID</b></label>
+    <input type="text"  name="hid" required>
+	</br>
+	</br>
+  
+	    <!--label for="date"><b>Date</b></label>
+    <input type="text"  name="date" placeholder="dd.mm.yyyy" required-->
+	
+	<label for="dob"><b id="na">Randevu Tarihi</b> </label>
+    <input type="date" name="date" required><br/><br/><br/>
+	
+	
+	
+    <label for="time"><b>Saat</b></label>
+    <input type="text" name="time" placeholder="hh:mm" required>
+	</br>
+	</br>
+	
+	    <label for="doc"><b> Ad Soyad</b></label></br>
+		<input type="radio" name="doc" value="0001">Dr Ahmet Ozturk</br>
+		<input type="radio" name="doc" value="0002">Dr Ayhan Dogan</br>
+		<input type="radio" name="doc" value="0003">Dr Gokce Fırat</br>
+		<input type="radio" name="doc" value="0004">Dr Hatice Seref</br>
+		<input type="radio" name="doc" value="0005">Dr Yunus Karadis</br>
+		<input type="radio" name="doc" value="0006">Dr Sila Ozkan</br>
+		<input type="radio" name="doc" value="0007">Dr Ozgur Deniz</br>
+		<input type="radio" name="doc" value="0008">Dr Furkan Gork</br>
+		<input type="radio" name="doc" value="0009">Dr Ugur Sahin</br>
+		<input type="radio" name="doc" value="0010">Dr Meryem Kasap</br>
+
+		
+  
+	</br>
+	</br>
+	
+	<div>
+      <button type="submit" class="bookbtn" >Randevunuzu Yapin !!</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>

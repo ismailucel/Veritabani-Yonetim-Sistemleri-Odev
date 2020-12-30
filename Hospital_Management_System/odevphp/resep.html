@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#re{
+font-size:30px;}
+#hed{
+font-size:70px;}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:300px;
+    opacity: 0.9;
+	
+}
+.add, .update .delete, .view {
+   background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:300px;
+    opacity: 0.9;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+	
+}
+
+h1{
+color:#DC143C		; font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+	background-image: url("bg1.jpg");
+	background-size: 1400px;
+    background-repeat:repeat;
+	
+	position:relative;
+	}
+.container {border-radius: 50%;}
+</style>
+</head>
+<body style="background-color:#d3d3d3;">
+<img id="logo"  >
+<center><img src="https://fontmeme.com/temporary/dbee9ed7f1eb1c8d2a8d9df571b6620f.png" border="0"></div>
+
+<center><h1 id="hed"> RESEPSIYON</h1></center>
+<div id="page" style="float:center;">
+<div id="nav" >
+			
+ <div class="clearfix" style="position:relative;width:19%;height:50%;top:-10px;float:left;">
+<h1 id="re">AYAKTA TEDAVI EDILECEK HASTALAR</h1>
+<a href="outpatient_view.php"><button type="button" class="view" value="oview">GORUNTULE</button></a>
+<a href="outpatient_id_gor.php"><button type="button" class="update" value="oupdate">ID ILE GORUNTULE</button></a>
+   <a href="outpatient_ekle.html"><button type="button" class="add" value ="oADD">EKLE</button></a>
+     <a href="gunc_outpatient.php"><button type="button" class="update" value="oupdate">GUNCELLE</button></a>
+		<a href="outpatient_del.php"><button type="button" class="delete" value="odelete">SIL</button></a>
+			
+		
+    </div>				
+ <div class="clearfix" style="position:relative;width:19%;height:50%;top:30px;left:1px;">
+	<h1 id="re">YATILI HASTALAR</h1>
+	<a href="inpatient_view.php"><button type="button" class="view" value="iview">GORUNTULE</button></a>
+	<a href="inpatient_id_gor.php"><button type="button" class="update" value="oupdate">ID ILE GORUNTULE</button></a>
+		<a href="inpatient_ekle.html"><button type="button" class="add" value ="iADD">EKLE</button></a>
+			<a href="gunc_inpatient.php"><button type="button" class="update" value="iupdate">GUNCELLE</button></a>
+						<a href="inpatient_del.php"><button type="button" class="delete" value="idelete">SIL</button></a>
+					
+  			
+</div>
+
+	<div class="clearfix" style="position:relative;width:19%;height:50%;top:-750px;float:right;">
+  <h1 id="re">ODALAR</h1>
+  <a href="yatak_view.php"><button type="button" class="view" value="wview">GORUNTULE</button></a>
+  <a href="yatak_id_gor.php"><button type="button" class="view" value="wview">ID ILE GORUNTULE</button></a>
+	<a href="yatak_ekle.html"><button type="button" class="add" value ="wadd">EKLE</button></a>
+		<a href="gunc_yatak.php"><button type="button" class="update" value="wupdate">GUNCELLE</button></a>
+					<a href="yatak_del.php"><button type="button" class="delete" value="wdelete">SIL</button></a>
+				
+
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
+
+    

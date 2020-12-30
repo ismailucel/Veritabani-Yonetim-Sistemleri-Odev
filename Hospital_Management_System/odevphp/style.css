@@ -1,0 +1,39 @@
+﻿#user{	text-decoration:none;
+	border:0;
+	width : 210px;
+	height : 200px;
+
+		background : url("user.png") no-repeat 0 0;
+	border-radius: 50%;
+	display: inline-block;
+}
+#reception{		width : 210px;
+	height : 200px;
+
+		background : url("res.jpg") no-repeat 0 0;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+#lab{		width : 210px;
+	height : 200px;
+
+		background : url("lab.jpg") no-repeat 0 0;
+	border-radius: 50%;
+	display: inline-block;
+}
+#admin{		width : 210px;
+	height : 200px;
+
+		background : url("admin.png") no-repeat 0 0;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+#med{		width : 210px;
+	height : 200px;
+
+		background : url("user.png") no-repeat 0 0;
+	border-radius: 70%;
+	display: inline-block;
+}

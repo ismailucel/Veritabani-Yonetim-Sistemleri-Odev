@@ -1,0 +1,2 @@
+hastane1 adlı veritabanı create database ifadesinin eklenmeden dump edilmiş halidir.
+hastane2 adlı veritabanı create database ifadesinin eklenip dump edilmiş halidir.
